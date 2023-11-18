@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>ArcaneWTF</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <nav class="flex space-between pX-128 pY-16" id="nav">
+      <a href="/">
+        <div class="flex gap-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="35"
+            height="38"
+            viewBox="0 0 35 38"
+            fill="none">
+            <defs>
+              <linearGradient
+                id="paint0_linear_6_17"
+                x1="17.7879"
+                y1="0"
+                x2="17.7879"
+                y2="32.8788"
+                gradientUnits="userSpaceOnUse">
+                <stop stop-color="#3F1D9E" />
+                <stop
+                  offset="1"
+                  stop-color="#3F1D9E"
+                  stop-opacity="0.32"></stop>
+              </linearGradient>
+            </defs>
+            <img src="images/favicon.ico" width="65" height="65" />
+          </svg>
+
+          <h4>ArcaneWTF</h4>
+        </div>
+      </a>
+
+      <div class="flex gap-16">
+        <div class="flex gap-16 buttons">
+          <a href="https://discord.gg/arcanewtf" class="button secondary small"
+            >Our Discord</a
+          >
+
+          <a href="https://arcanewtf.com/" class="button small">Our Shop</a>
+        </div>
+
+        <a
+          class="button secondary small hamburger menu-icon-open"
+          onclick="nav();"
+          id="menu-icon">
+          <ion-icon name="menu-outline"></ion-icon>
+        </a>
+
+        <a
+          class="button secondary small hamburger"
+          onclick="nav();"
+          id="close-icon">
+          <ion-icon name="close-outline"></ion-icon>
+        </a>
+      </div>
+    </nav>
+
+    <section class="landing">
+      <div class="flex col gap-32">
+        <div class="flex col gap-16 center">
+          <h1>ArcaneWTF</h1>
+
+          <p>
+            New to ArcaneWTF? Let's kickstart your journey with us! Whether
+            you're a seasoned user or a newcomer, we're here to guide you
+            through the exciting world of our software.
+          </p>
+        </div>
+
+        <a href="https://arcanewtf.com/" class="button">Get started</a>
+      </div>
+    </section>
+    <section class="features center">
+      <div class="flex col gap-16 center">
+        <h2>Our Features</h2>
+
+        <p>
+          Explore the array of high-quality features we provide for our current
+          and prospective customers. Discover the excellence that sets us apart!
+        </p>
+      </div>
+
+      <div class="flex wrap gap-32">
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="flash-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>24/7 Support</h4>
+
+            <p>
+              We provide around-the-clock support to promptly address any issues
+              you may encounter, ensuring fun with our service.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="card-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>Payment Methods</h4>
+
+            <p>
+              Choose from a wide range of payment options, including Crypto,
+              Credit/Debit cards, and more, ensuring convenient transactions.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="shield-checkmark-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>Security</h4>
+
+            <p>
+              We prioritize your security by providing undetected software with
+              a robust bypass, ensuring a protected and seamless experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="trending-up-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>Uptime</h4>
+
+            <p>
+              We prioritize your experience with near-constant online
+              availability and swift risk resolution, ensuring a seamless and
+              enjoyable service.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="radio-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>Updates</h4>
+
+            <p>
+              We consistently do updates, ensuring you always have exciting new
+              features to explore, for your overall experience with our
+              software.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex left col container bounce gap-16 p-32">
+          <div class="flex center container small highest p-8">
+            <ion-icon name="arrow-forward-circle-outline"></ion-icon>
+          </div>
+
+          <div class="flex left col gap-8">
+            <h4>and more...</h4>
+
+            <p>Exciting additions coming soon – stay tuned!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row feature">
+      <div class="flex left col gap-16">
+        <h2>Easy to Use</h2>
+
+        <p>
+          Experience the simplicity of our user-friendly software designed not
+          only for you but also for your friends. Our intuitive interface
+          ensures accessibility for everyone, making it a hassle-free experience
+          for users of all levels.
+        </p>
+      </div>
+
+      <img src="images/menu.gif" width="800" height="500" />
+    </section>
+
+    <section class="row feature alt higher">
+      <div class="flex left col gap-16">
+        <h2>Auto-Buy</h2>
+
+        <p>
+          Purchase a key from our website and enjoy the convenience of instant
+          delivery, typically within under a minute. Swift and seamless, our
+          process ensures you can access your key promptly for an immediate and
+          hassle-free experience.
+        </p>
+      </div>
+
+      <img src="images/favicon.ico" />
+    </section>
+
+    <section class="row feature">
+      <div class="flex left col gap-16">
+        <h2>And more...</h2>
+
+        <p>
+          Access legitimate configurations with the added advantage of our
+          responsive customer support. Our team is dedicated to providing fast
+          assistance, ensuring you have a smooth and reliable experience with
+          our software.
+        </p>
+      </div>
+
+      <img src="images/support.png" />
+    </section>
+
+    <section class="row reviews center">
+      <div class="flex left col gap-32">
+        <div class="flex left col gap-16">
+          <h2>Hear from our users.</h2>
+
+          <p>
+            Explore our Vouches Channel to witness the satisfaction of numerous
+            users who have experienced the excellence of our software. Join the
+            community and discover firsthand the positive feedback from our
+            satisfied customers!
+          </p>
+        </div>
+
+        <a class="button secondary" href="https://discord.gg/arcanewtf"
+          >Read reviews</a
+        >
+      </div>
+
+      <div class="flex col gap-32">
+        <div class="flex row gap-32">
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+        </div>
+
+        <div class="scrim"></div>
+
+        <div class="flex row gap-32">
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+        </div>
+
+        <div class="flex row gap-32">
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+
+          <div class="container"></div>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
